@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+:root{
+
+    --main-color:#068043;
+    --block1-color:#01c853;
+    --block2-color:#45289f;
+    --block3-color:#fec400;
+    --block4-color:#01c853;
+    --block5-color:#fec400;
+    --block6-color:#ff3d00;
+    --block7-color:#45289f;
+    --block8-color:#2a62ff;
+    --block9-color:#705f7f;
+    --block10-color:#a4acb0;
+    --block11-color:#f40057; 
+    --primary-text-color:#fff;
+    --secundary-text-color:#222;
+    --primary-bg-color:#fff;
+    --secundary-bg-color:#eee;
+}
+
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+    background-color: var(--secundary-bg-color);
+}
+
+*::selection{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100rem;
+}
+
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--secundary-bg-color);
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--block11-color);
+}
+
+.menu-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-bg-color);
+}
+
+.menu-header img {
+    width: 200px;
+    padding: 1.5rem;
+    background-color: var(--primary-bg-color);
+}
+
+.menu-header i {
+    padding: 3rem;
+    background-color: var(--primary-bg-color);
+    cursor: pointer;
+}
+
+.home {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    background-color: var(--main-color);
+}
+
+.image-perfil {
+    padding: 20px;
+    background-color: var(--main-color);
+}
+
+.image-perfil img {
+    border-radius: 100%;
+    width: 15rem;
+    height: 12rem;
+    background-color: var(--main-color);
+}
+
+.info-aluno {
+    padding: 30px 0px 30px 10px;
+    display: block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+.info-aluno p {
+    padding: 3px;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--main-color);
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+}
+
+/* Block 1 */
+
+.block1-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block1-color);
+}
+
+.block1-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block1-color);
+}
+
+.block-info {
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+    background: var(--primary-bg-color);
+    cursor: pointer;
+}
+
+.block-info p {
+    font-size: 1.7rem;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    background: var(--primary-bg-color);
+}
+.block-info i {
+    font-size: 30px;
+    padding: 10px;
+    background: var(--primary-bg-color); 
+}
+
+/* Block 2 */
+
+.block2-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block2-color);
+}
+
+.block2-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block2-color);
+}
+
+/* Block 3 */
+
+.block3-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block3-color);
+}
+
+.block3-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block3-color);
+}
+
+/* Block 4 */
+
+.block4-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block4-color);
+}
+
+.block4-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block4-color);
+}
+
+/* Block 5 */
+
+.block5-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block5-color);
+}
+
+.block5-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block5-color);
+}
+
+/* Block 6 */
+
+.block6-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block6-color);
+}
+
+.block6-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block6-color);
+}
+
+/* Block 7 */
+
+.block7-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block7-color);
+}
+
+.block7-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block7-color);
+}
+
+/* Block 8 */
+
+.block8-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block8-color);
+}
+
+.block8-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block8-color);
+}
+
+/* Block 9 */
+
+.block9-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block9-color);
+}
+
+.block9-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block9-color);
+}
+
+/* Block 10 */
+
+.block10-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block10-color);
+}
+
+.block10-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block10-color);
+}
+
+/* Block 11 */
+
+.block11-item {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: var(--block11-color);
+}
+
+.block11-item i {
+    font-size: 50px;
+    color: var(--primary-bg-color);
+    background-color: var(--block11-color);
+}
+
+.footer {
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+}
+
+
+@media (max-width:655px) {
+    /* de 0px até 655px */
+    .info-aluno {
+        width: 100%;
+    }
+}
+@media (min-width:655px) and (max-width: 992px) {
+    /* de 768px até 992px*/
+}
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
+}
